@@ -3,6 +3,17 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+.alert-alert {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-notice {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
 // body {
     // Gradient from http://uigradients.com/
 //    background: #085078; /* fallback for old browsers */
