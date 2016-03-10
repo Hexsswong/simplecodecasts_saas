@@ -18,7 +18,6 @@
                                 <div>
                                     <%= link_to user do %>
                                         <h2><%= user.profile.first_name %> <%= user.profile.last_name %></h2>
-                                        <%= user.email %>
                                     <% end %>
                                     <p><%= user.profile.job_title %> 
                                         <% if user.plan.id == 2%>
